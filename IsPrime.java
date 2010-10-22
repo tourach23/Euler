@@ -2,7 +2,7 @@ public class IsPrime{
 	public IsPrime(long n){
 		isPrimeWork(n);
 	}//out of constructor
-	public boolean isPrimeWork(long n){
+	public static boolean isPrimeWork(long n){
 		boolean prime = true;
 		for(long i = 3; i<=Math.sqrt(n); i += 2){
 			if(n % i ==0){
