@@ -1,14 +1,19 @@
+
+
 class Euler{
     public static void main(String[] args) {
     	EulerOne totalOne = new EulerOne();
-    	System.out.print("The Answer to Project Euler #1 is ");
-    	System.out.println(totalOne.doWork());
+    	System.out.println("The Answer to Project Euler #1 is "+ totalOne.doWork());
     	EulerTwo totalTwo = new EulerTwo();
-    	System.out.print("The Answer to Project Euler #2 is ");
-    	System.out.println(totalTwo.eulerTwoWork());
+    	System.out.println("The Answer to Project Euler #2 is "+ totalTwo.eulerTwoWork());
     	EulerThree totalThree = new EulerThree();
-    	System.out.print("The Answer to Project Euler #3 is ");
-    	System.out.println(totalThree.eulerThreeWork());
+    	System.out.println("The Answer to Project Euler #3 is "+ totalThree.eulerThreeWork());
+    	EulerFour totalFour = new EulerFour();
+    	System.out.println("The Answer to Project Euler #4 is "+ totalFour.eulerFourWork());
+    	EulerFive totalFive = new EulerFive();
+    	System.out.println("The Answer to Project Euler #5 is "+ totalFive.eulerFiveWork());
+    	EulerSix totalSix = new EulerSix();
+    	System.out.println("The Answer to Project Euler #6 is "+ totalSix.eulerSixWork());
     }
 }	
     	
@@ -29,7 +34,7 @@ class Euler{
         
             if (i % 3 == 0) {
                 total += i;
-            } else if (i % 5 == 0){
+            } else if (i %" 5 == 0){
                 total += i;
             }
             

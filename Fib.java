@@ -1,3 +1,7 @@
+/**********************************************************************************
+ * this class returns all numbers in a Fibonaci sequence for a given # recursively
+ **********************************************************************************/
+
 public class Fib{
 	public Fib(int n){
 		fibWork(n);
