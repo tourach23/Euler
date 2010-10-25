@@ -3,7 +3,7 @@ public class EulerFive{
 		eulerFiveWork();
 	}// out of constructor
 	public long eulerFiveWork(){
-		long number = 0;
+		long number = 200000000;
 		boolean done = false;
 		while (done != true){
 			number = number+1;
