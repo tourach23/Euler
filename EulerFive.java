@@ -1,3 +1,9 @@
+/******************************************************
+ * Project Euler #5
+ * insert description here
+ *
+ */
+
 public class EulerFive{
 	public EulerFive(){
 		eulerFiveWork();
@@ -13,26 +19,9 @@ public class EulerFive{
 					break;
 				}if (i==2){
 					done = true;
-				}
-			}
-		}	
+				}//out of if conciditionals
+			}//out of for
+		}//out of while	
 		return number;
-	}
-}
-
-/*
- * def euler5():
- 
-    print "start"
-    done = False
-    number=0
-    while (not done):
-        number = number + 1
-        for x in range(20, 1, -1):
-            y = number % x
-            if (y != 0):
-                break
-        if (x == 2):
-            done = True
-    print number
-*/
+	}//out of method
+}//out of class

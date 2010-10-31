@@ -1,3 +1,8 @@
+/**
+ * Project Euler #1
+ * insert Description Here
+ *
+ */
 public class EulerOne{
 	private int total = 0;
 	private final int n = 1000;

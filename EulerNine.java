@@ -1,13 +1,8 @@
-/*
-def euler9():
-    for a in range(0, 1000,1):
-        for b in range(0,1000,1):
-            c = 1000 - a - b
-            if c > 0:
-                if c*c == a*a + b*b:
-                    print a*b*c
-                    break
-*/
+/** 
+ * Project Euler #9
+ * insert description here
+ *
+ */
 public class EulerNine{
 	public EulerNine(){
 		eulerNineWork();

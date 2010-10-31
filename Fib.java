@@ -1,5 +1,6 @@
 /**********************************************************************************
  * this class returns all numbers in a Fibonaci sequence for a given # recursively
+ * note: tends to be slow needs to be implemented as a loop
  **********************************************************************************/
 
 public class Fib{

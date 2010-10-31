@@ -1,3 +1,8 @@
+/********************************************
+ * Project Euler #8
+ * insert project euler description here
+ ********************************************/
+
 public class EulerEight{
 	public EulerEight(){
 		eulerEightWork();

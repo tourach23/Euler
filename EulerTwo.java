@@ -1,3 +1,9 @@
+/********************************************
+ * Project Euler #2
+ * insert description here
+ *
+ */
+
 public class EulerTwo{
 	public EulerTwo(){
 		eulerTwoWork();

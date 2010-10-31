@@ -1,3 +1,9 @@
+/*****************************************************
+ * Project Euler #6
+ * insert description here
+ *
+ */
+
 public class EulerSix{
 	public EulerSix(){
 		eulerSixWork();

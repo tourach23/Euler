@@ -1,16 +1,8 @@
-
-
-/*def euler10():
-    primelist = []
-    for x in range(0,2000000,1):
-        test = x
-        prime = isprime(test)
-        if prime == True:
-            primelist.append(x)
-    total = sum(primelist)
-    print total
-*/
-
+/*****************************************************
+ * Project Euler #10
+ * insert description here
+ *
+ */
 
 public class EulerTen{
 	public EulerTen(){

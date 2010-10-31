@@ -1,6 +1,9 @@
-/**********************************************************************
+/*************************************************************************
  * this class returns a list all factors for a given number
- **********************************************************************/
+ * @input long
+ * @output long
+ * @issues does not return true for factors below 10 needs further testing
+ *************************************************************************/
 
 import java.util.ArrayList;
 import java.util.Collections;
