@@ -27,6 +27,8 @@ class Euler{
     	System.out.println("The Answer to Project Euler #9 is "+ totalNine.eulerNineWork());
     	EulerTen totalTen = new EulerTen();
     	System.out.println("The Answer to Project Euler #10 is "+ totalTen.eulerTenWork());
+    	EulerEleven totalEleven = new EulerEleven();
+    	System.out.println("The Answer to Project Euler #11 is "+ totalEleven.eulerElevenWork());
     	EulerSixteen totalSixteen = new EulerSixteen();
     	System.out.println("The Answer to Project Euler #16 is "+ totalSixteen.eulerSixteenWork());
     	EulerTwenty totalTwenty = new EulerTwenty();
